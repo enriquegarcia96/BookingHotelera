@@ -99,6 +99,7 @@
     <Content Include="css\global-header.css" />
     <Content Include="css\index.css" />
     <Content Include="css\rooms-and-suites.css" />
+    <Content Include="Default.aspx" />
     <Content Include="img\ant-design_play-circle-filled.svg" />
     <Content Include="img\bed.png" />
     <Content Include="img\check-square.svg" />
@@ -119,6 +120,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.code\Conexion.vb" />
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Inicio.Master.designer.vb">
       <DependentUpon>Inicio.Master</DependentUpon>
     </Compile>
