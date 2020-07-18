@@ -92,6 +92,29 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\accesibility.css" />
+    <Content Include="css\contact-page.css" />
+    <Content Include="css\facilities.css" />
+    <Content Include="css\global-footer.css" />
+    <Content Include="css\global-header.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\rooms-and-suites.css" />
+    <Content Include="img\ant-design_play-circle-filled.svg" />
+    <Content Include="img\bed.png" />
+    <Content Include="img\check-square.svg" />
+    <Content Include="img\clock.svg" />
+    <Content Include="img\coffee.svg" />
+    <Content Include="img\database.svg" />
+    <Content Include="img\facebook.svg" />
+    <Content Include="img\instagram.svg" />
+    <Content Include="img\mail.svg" />
+    <Content Include="img\map-pin.svg" />
+    <Content Include="img\phone.svg" />
+    <Content Include="img\star hotels logo.png" />
+    <Content Include="img\twitter.svg" />
+    <Content Include="img\wifi.svg" />
+    <Content Include="js\switchRooms.js" />
+    <Content Include="js\toggleHamburger.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +150,7 @@
     </Compile>
     <Compile Include="PaisMaster.Master.vb">
       <DependentUpon>PaisMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +163,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inicio.Master" />
+    <Content Include="img\customer1.webp" />
+    <Content Include="img\customer2.webp" />
+    <Content Include="img\customer3.webp" />
+    <Content Include="img\favicon.webp" />
+    <Content Include="img\gymnasium.webp" />
+    <Content Include="img\helipad.webp" />
+    <Content Include="img\Homepage-jumbotron.webp" />
+    <Content Include="img\hotel-1.webp" />
+    <Content Include="img\hotel-2.webp" />
+    <Content Include="img\hotel-3.webp" />
+    <Content Include="img\hotel-4-large.webp" />
+    <Content Include="img\hotel-5.webp" />
+    <Content Include="img\hotel-6.webp" />
+    <Content Include="img\Rectangle 42.webp" />
+    <Content Include="img\Rectangle 57.webp" />
+    <Content Include="img\Rectangle 75.webp" />
+    <Content Include="img\restaurants.webp" />
+    <Content Include="img\swimming_pool.webp" />
+    <Content Include="img\telephone.webp" />
+    <Content Include="img\video link.webp" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
