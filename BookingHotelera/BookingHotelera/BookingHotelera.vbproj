@@ -92,30 +92,169 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\accesibility.css" />
-    <Content Include="css\contact-page.css" />
-    <Content Include="css\facilities.css" />
-    <Content Include="css\global-footer.css" />
-    <Content Include="css\global-header.css" />
-    <Content Include="css\index.css" />
-    <Content Include="css\rooms-and-suites.css" />
+    <Content Include="images\about_background.jpg" />
+    <Content Include="images\add.jpg" />
+    <Content Include="images\backpack.png" />
+    <Content Include="images\bicycle.png" />
+    <Content Include="images\blog_1.jpg" />
+    <Content Include="images\blog_2.jpg" />
+    <Content Include="images\blog_3.jpg" />
+    <Content Include="images\blog_background.jpg" />
+    <Content Include="images\bus.png" />
+    <Content Include="images\compass.png" />
+    <Content Include="images\contact.png" />
+    <Content Include="images\contact_background.jpg" />
+    <Content Include="images\cruise.png" />
+    <Content Include="images\cta.jpg" />
+    <Content Include="images\departure.png" />
+    <Content Include="images\diving.png" />
+    <Content Include="images\dropdown.png" />
+    <Content Include="images\elements_background.jpg" />
+    <Content Include="images\footer_blog_1.jpg" />
+    <Content Include="images\footer_blog_2.jpg" />
+    <Content Include="images\footer_blog_3.jpg" />
+    <Content Include="images\gallery_1.jpg" />
+    <Content Include="images\gallery_2.jpg" />
+    <Content Include="images\gallery_3.jpg" />
+    <Content Include="images\gallery_4.jpg" />
+    <Content Include="images\gallery_5.jpg" />
+    <Content Include="images\gallery_6.jpg" />
+    <Content Include="images\home_slider.jpg" />
+    <Content Include="images\icon_1.png" />
+    <Content Include="images\icon_2.png" />
+    <Content Include="images\icon_3.png" />
+    <Content Include="images\intro.png" />
+    <Content Include="images\intro_1.jpg" />
+    <Content Include="images\intro_2.jpg" />
+    <Content Include="images\intro_3.jpg" />
+    <Content Include="images\island.png" />
+    <Content Include="images\island_t.png" />
+    <Content Include="images\kayak.png" />
+    <Content Include="images\latest_1.jpg" />
+    <Content Include="images\latest_2.jpg" />
+    <Content Include="images\latest_3.jpg" />
+    <Content Include="images\latest_4.jpg" />
+    <Content Include="images\listing_1.jpg" />
+    <Content Include="images\listing_2.jpg" />
+    <Content Include="images\listing_3.jpg" />
+    <Content Include="images\listing_4.jpg" />
+    <Content Include="images\listing_5.jpg" />
+    <Content Include="images\listing_6.jpg" />
+    <Content Include="images\listing_7.jpg" />
+    <Content Include="images\listing_8.jpg" />
+    <Content Include="images\listing_9.jpg" />
+    <Content Include="images\listing_gallery_1.jpg" />
+    <Content Include="images\listing_hotel.jpg" />
+    <Content Include="images\listing_thumb_1.jpg" />
+    <Content Include="images\listing_thumb_2.jpg" />
+    <Content Include="images\listing_thumb_3.jpg" />
+    <Content Include="images\listing_thumb_4.jpg" />
+    <Content Include="images\listing_thumb_5.jpg" />
+    <Content Include="images\listing_thumb_6.jpg" />
+    <Content Include="images\listing_thumb_7.jpg" />
+    <Content Include="images\listing_thumb_8.jpg" />
+    <Content Include="images\listing_thumb_9.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\man.png" />
+    <Content Include="images\message.svg" />
+    <Content Include="images\milestone_1.png" />
+    <Content Include="images\milestone_2.png" />
+    <Content Include="images\milestone_3.png" />
+    <Content Include="images\milestone_4.png" />
+    <Content Include="images\nav_next.svg" />
+    <Content Include="images\nav_prev.svg" />
+    <Content Include="images\nav_rect.svg" />
+    <Content Include="images\next.png" />
+    <Content Include="images\offer_1.jpg" />
+    <Content Include="images\offer_2.jpg" />
+    <Content Include="images\offer_3.jpg" />
+    <Content Include="images\offer_4.jpg" />
+    <Content Include="images\offer_5.jpg" />
+    <Content Include="images\offer_6.jpg" />
+    <Content Include="images\offer_7.jpg" />
+    <Content Include="images\offer_8.jpg" />
+    <Content Include="images\phone-call.svg" />
+    <Content Include="images\placeholder.svg" />
+    <Content Include="images\planet-earth.svg" />
+    <Content Include="images\post.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\review_1.jpg" />
+    <Content Include="images\review_2.jpg" />
+    <Content Include="images\room_1.jpg" />
+    <Content Include="images\room_2.jpg" />
+    <Content Include="images\sailboat.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\search.svg" />
+    <Content Include="images\single_background.jpg" />
+    <Content Include="images\stats_1.png" />
+    <Content Include="images\stats_2.png" />
+    <Content Include="images\stats_3.png" />
+    <Content Include="images\stats_4.png" />
+    <Content Include="images\suitcase.png" />
+    <Content Include="images\test_1.jpg" />
+    <Content Include="images\test_2.jpg" />
+    <Content Include="images\test_3.jpg" />
+    <Content Include="images\trend_1.png" />
+    <Content Include="images\trend_2.png" />
+    <Content Include="images\trend_3.png" />
+    <Content Include="images\trend_4.png" />
+    <Content Include="images\trend_5.png" />
+    <Content Include="images\trend_6.png" />
+    <Content Include="images\trend_7.png" />
+    <Content Include="images\trend_8.png" />
+    <Content Include="js\about_custom.js" />
+    <Content Include="js\blog_custom.js" />
+    <Content Include="js\contact_custom.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\elements_custom.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\offers_custom.js" />
+    <Content Include="js\single_listing_custom.js" />
+    <Content Include="plugins\colorbox\colorbox.css" />
+    <Content Include="plugins\colorbox\images\border.png" />
+    <Content Include="plugins\colorbox\images\controls.png" />
+    <Content Include="plugins\colorbox\images\loading.gif" />
+    <Content Include="plugins\colorbox\images\loading_background.png" />
+    <Content Include="plugins\colorbox\images\overlay.png" />
+    <Content Include="plugins\colorbox\jquery.colorbox-min.js" />
+    <Content Include="plugins\easing\easing.js" />
+    <Content Include="plugins\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="plugins\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="plugins\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="plugins\greensock\animation.gsap.min.js" />
+    <Content Include="plugins\greensock\ScrollToPlugin.min.js" />
+    <Content Include="plugins\greensock\TimelineMax.min.js" />
+    <Content Include="plugins\greensock\TweenMax.min.js" />
+    <Content Include="plugins\Isotope\isotope.pkgd.min.js" />
+    <Content Include="plugins\jquery-circle-progress-1.2.2\circle-progress.js" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\ajax-loader.gif" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\animate.css" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\owl.carousel.css" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\owl.theme.default.css" />
+    <Content Include="plugins\OwlCarousel2-2.2.1\owl.video.play.png" />
+    <Content Include="plugins\parallax-js-master\parallax.min.js" />
+    <Content Include="plugins\progressbar\progressbar.min.js" />
+    <Content Include="plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="styles\about_responsive.css" />
+    <Content Include="styles\about_styles.css" />
+    <Content Include="styles\blog_responsive.css" />
+    <Content Include="styles\blog_styles.css" />
+    <Content Include="styles\bootstrap4\bootstrap.min.css" />
+    <Content Include="styles\bootstrap4\bootstrap.min.js" />
+    <Content Include="styles\bootstrap4\popper.js" />
+    <Content Include="styles\contact_responsive.css" />
+    <Content Include="styles\contact_styles.css" />
+    <Content Include="styles\elements_responsive.css" />
+    <Content Include="styles\elements_styles.css" />
+    <Content Include="styles\main_styles.css" />
+    <Content Include="styles\offers_responsive.css" />
+    <Content Include="styles\offers_styles.css" />
+    <Content Include="styles\responsive.css" />
+    <Content Include="styles\single_listing_responsive.css" />
+    <Content Include="styles\single_listing_styles.css" />
     <Content Include="Default.aspx" />
-    <Content Include="img\ant-design_play-circle-filled.svg" />
-    <Content Include="img\bed.png" />
-    <Content Include="img\check-square.svg" />
-    <Content Include="img\clock.svg" />
-    <Content Include="img\coffee.svg" />
-    <Content Include="img\database.svg" />
-    <Content Include="img\facebook.svg" />
-    <Content Include="img\instagram.svg" />
-    <Content Include="img\mail.svg" />
-    <Content Include="img\map-pin.svg" />
-    <Content Include="img\phone.svg" />
-    <Content Include="img\star hotels logo.png" />
-    <Content Include="img\twitter.svg" />
-    <Content Include="img\wifi.svg" />
-    <Content Include="js\switchRooms.js" />
-    <Content Include="js\toggleHamburger.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,11 +266,11 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Inicio.Master.designer.vb">
-      <DependentUpon>Inicio.Master</DependentUpon>
+    <Compile Include="InicioMater.Master.designer.vb">
+      <DependentUpon>InicioMater.Master</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.Master.vb">
-      <DependentUpon>Inicio.Master</DependentUpon>
+    <Compile Include="InicioMater.Master.vb">
+      <DependentUpon>InicioMater.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -153,13 +292,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PaisMaster.Master.designer.vb">
-      <DependentUpon>PaisMaster.Master</DependentUpon>
-    </Compile>
-    <Compile Include="PaisMaster.Master.vb">
-      <DependentUpon>PaisMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -170,27 +302,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Inicio.Master" />
-    <Content Include="img\customer1.webp" />
-    <Content Include="img\customer2.webp" />
-    <Content Include="img\customer3.webp" />
-    <Content Include="img\favicon.webp" />
-    <Content Include="img\gymnasium.webp" />
-    <Content Include="img\helipad.webp" />
-    <Content Include="img\Homepage-jumbotron.webp" />
-    <Content Include="img\hotel-1.webp" />
-    <Content Include="img\hotel-2.webp" />
-    <Content Include="img\hotel-3.webp" />
-    <Content Include="img\hotel-4-large.webp" />
-    <Content Include="img\hotel-5.webp" />
-    <Content Include="img\hotel-6.webp" />
-    <Content Include="img\Rectangle 42.webp" />
-    <Content Include="img\Rectangle 57.webp" />
-    <Content Include="img\Rectangle 75.webp" />
-    <Content Include="img\restaurants.webp" />
-    <Content Include="img\swimming_pool.webp" />
-    <Content Include="img\telephone.webp" />
-    <Content Include="img\video link.webp" />
+    <Content Include="fonts\beyond_the_mountains.otf" />
+    <Content Include="fonts\beyond_the_mountains.ttf" />
+    <Content Include="InicioMater.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -201,7 +315,39 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <Content Include="PaisMaster.Master" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="plugins\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="plugins\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\core.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\list.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\path.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="plugins\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="plugins\font-awesome-4.7.0\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

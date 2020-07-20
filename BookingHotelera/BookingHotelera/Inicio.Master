@@ -1,2 +1,0 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Inicio.master.vb" Inherits="BookingHotelera.Inicio" %>
-
