@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Single Listing</title>
 <meta charset="utf-8">
