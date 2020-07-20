@@ -211,6 +211,7 @@
     <Content Include="js\offers_custom.js" />
     <Content Include="js\single_listing_custom.js" />
     <Content Include="Login.aspx" />
+    <Content Include="offers.aspx" />
     <Content Include="plugins\colorbox\colorbox.css" />
     <Content Include="plugins\colorbox\images\border.png" />
     <Content Include="plugins\colorbox\images\controls.png" />
@@ -238,6 +239,7 @@
     <Content Include="plugins\parallax-js-master\parallax.min.js" />
     <Content Include="plugins\progressbar\progressbar.min.js" />
     <Content Include="plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="single_listing.aspx" />
     <Content Include="styles\about_responsive.css" />
     <Content Include="styles\about_styles.css" />
     <Content Include="styles\blog_responsive.css" />
@@ -298,6 +300,20 @@
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="offers.aspx.designer.vb">
+      <DependentUpon>offers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="offers.aspx.vb">
+      <DependentUpon>offers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="single_listing.aspx.designer.vb">
+      <DependentUpon>single_listing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="single_listing.aspx.vb">
+      <DependentUpon>single_listing.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
