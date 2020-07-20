@@ -53,6 +53,27 @@
 
 		<!-- Main Navigation -->
 
+		<nav class="main_nav">
+			<div class="container">
+				<div class="row">
+					<div class="d-flex flex-row align-items-center justify-content-start">
+
+					
+
+		
+
+
+						<form id="search_form" class="search_form bez_1">
+							<!-- <input type="search" class="search_content_input bez_1">  -->
+						</form>
+						
+						<div class="hamburger">
+							<i class="fa fa-bars trans_200"></i>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</nav>
 
 	</header>
 
@@ -61,11 +82,11 @@
 			<div class="menu_close_container"><div class="menu_close"></div></div>
 			<div class="logo menu_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
 			<ul>
-				<li class="menu_item"><a href="index.aspx">home</a></li>
-				<li class="menu_item"><a href="about.aspx">Sobre Nosotros</a></li>
-				<li class="menu_item"><a href="#">Ofertas</a></li>
-				<li class="menu_item"><a href="blog.apsx">Noticias</a></li>
-				<li class="menu_item"><a href="contact.aspx">Contacto</a></li>
+				<li class="menu_item"><a href="index.html">home</a></li>
+				<li class="menu_item"><a href="about.html">about us</a></li>
+				<li class="menu_item"><a href="#">offers</a></li>
+				<li class="menu_item"><a href="blog.html">news</a></li>
+				<li class="menu_item"><a href="contact.html">contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -99,6 +120,11 @@
 							<div class="search_tabs_container">
 								<div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>hotels</span></div>
+									<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/bus.png" alt="">car rentals</div>
+									<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/departure.png" alt="">flights</div>
+									<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/island.png" alt="">trips</div>
+									<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/cruise.png" alt="">cruises</div>
+									<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/diving.png" alt="">activities</div>
 								</div>		
 							</div>
 
@@ -813,11 +839,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
 						<div class="footer_nav">
 							<ul class="footer_nav_list">
-								<li class="main_nav_item"><a href="index.aspx">home</a></li>
-								<li class="main_nav_item"><a href="about.aspx">Sobre Nosotros</a></li>
-								<li class="main_nav_item"><a href="#">Ofertas</a></li>
-								<li class="main_nav_item"><a href="blog.aspx">Noticias</a></li>
-								<li class="main_nav_item"><a href="contact.aspx">Contacto</a></li>
+								<li class="footer_nav_item"><a href="index.html">home</a></li>
+								<li class="footer_nav_item"><a href="about.html">aboutus</a></li>
+								<li class="footer_nav_item"><a href="#">offers</a></li>
+								<li class="footer_nav_item"><a href="blog.html">newsSSSSAAA</a></li>
+								<li class="footer_nav_item"><a href="contact.html">contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -839,4 +865,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
 </asp:Content>
