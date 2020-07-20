@@ -971,7 +971,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="footer_nav">
 							<ul class="footer_nav_list">
 								<li class="footer_nav_item"><a href="#">home</a></li>
-								<li class="footer_nav_item"><a href="about.html">about us</a></li>
+								<li class="footer_nav_item"><a href="about.aspx">about3 us</a></li>
 								<li class="footer_nav_item"><a href="offers.html">offers</a></li>
 								<li class="footer_nav_item"><a href="blog.html">news</a></li>
 								<li class="footer_nav_item"><a href="contact.html">contact</a></li>
