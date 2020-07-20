@@ -1,7 +1,6 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="InicioMater.master.vb" Inherits="BookingHotelera.InicioMater" %>
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="InicioMater.master.vb" Inherits="BookingHotelera.InicioMater" %>
 
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
