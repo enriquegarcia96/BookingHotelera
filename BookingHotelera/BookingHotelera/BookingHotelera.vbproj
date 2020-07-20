@@ -210,6 +210,7 @@
     <Content Include="js\jquery-3.2.1.min.js" />
     <Content Include="js\offers_custom.js" />
     <Content Include="js\single_listing_custom.js" />
+    <Content Include="Login.aspx" />
     <Content Include="plugins\colorbox\colorbox.css" />
     <Content Include="plugins\colorbox\images\border.png" />
     <Content Include="plugins\colorbox\images\controls.png" />
@@ -272,6 +273,13 @@
     <Compile Include="InicioMater.Master.vb">
       <DependentUpon>InicioMater.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
