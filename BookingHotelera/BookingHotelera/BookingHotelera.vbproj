@@ -261,6 +261,7 @@
     <Content Include="styles\responsive.css" />
     <Content Include="styles\single_listing_responsive.css" />
     <Content Include="styles\single_listing_styles.css" />
+    <Content Include="usuarioNuevo.aspx" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
   </ItemGroup>
@@ -346,6 +347,13 @@
     </Compile>
     <Compile Include="single_listing.aspx.vb">
       <DependentUpon>single_listing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usuarioNuevo.aspx.designer.vb">
+      <DependentUpon>usuarioNuevo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarioNuevo.aspx.vb">
+      <DependentUpon>usuarioNuevo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
