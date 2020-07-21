@@ -111,6 +111,7 @@
     <Content Include="images\cruise.png" />
     <Content Include="images\cta.jpg" />
     <Content Include="images\departure.png" />
+    <Content Include="images\desierto.jpg" />
     <Content Include="images\diving.png" />
     <Content Include="images\dropdown.png" />
     <Content Include="images\elements_background.jpg" />
