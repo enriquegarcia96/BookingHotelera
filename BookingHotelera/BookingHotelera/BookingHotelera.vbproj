@@ -124,6 +124,8 @@
     <Content Include="images\gallery_5.jpg" />
     <Content Include="images\gallery_6.jpg" />
     <Content Include="images\home_slider.jpg" />
+    <Content Include="images\HotelB.jpg" />
+    <Content Include="images\HotelHN.jpg" />
     <Content Include="images\icon_1.png" />
     <Content Include="images\icon_2.png" />
     <Content Include="images\icon_3.png" />
