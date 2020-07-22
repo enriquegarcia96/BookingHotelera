@@ -20,83 +20,13 @@
 <body>
 
 <div class="super_container">
-	
-	<!-- Header -->
-
-	<header class="header">
-
-		<!-- Top Bar -->
-
-		<div class="top_bar">
-			<div class="container">
-				<div class="row">
-					<div class="col d-flex flex-row">
-						<div class="phone">+45 345 3324 56789</div>
-						<div class="social">
-							<ul class="social_list">
-								<li class="social_list_item"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li class="social_list_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="social_list_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="social_list_item"><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								<li class="social_list_item"><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-								<li class="social_list_item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="user_box ml-auto">
-							<div class="user_box_login user_box_link"><a href="Login.aspx">login</a></div>
-							<div class="user_box_register user_box_link"><a href="usuarioNuevo.aspx">register</a></div>
-						</div>
-					</div>
-				</div>
-			</div>		
-		</div>
-
-		<!-- Main Navigation -->
-
-		<nav class="main_nav">
-			<div class="container">
-				<div class="row">
-					<div class="d-flex flex-row align-items-center justify-content-start">
-
-					
-
-		
-
-
-						<form id="search_form" class="search_form bez_1">
-							<!-- <input type="search" class="search_content_input bez_1">  -->
-						</form>
-						
-						<div class="hamburger">
-							<i class="fa fa-bars trans_200"></i>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</nav>
-
-	</header>
-
-	<div class="menu trans_500">
-		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
-			<div class="menu_close_container"><div class="menu_close"></div></div>
-			<div class="logo menu_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
-			<ul>
-				<li class="menu_item"><a href="index.html">home</a></li>
-				<li class="menu_item"><a href="about.html">about us</a></li>
-				<li class="menu_item"><a href="#">offers</a></li>
-				<li class="menu_item"><a href="blog.html">news</a></li>
-				<li class="menu_item"><a href="contact.html">contact</a></li>
-			</ul>
-		</div>
-	</div>
 
 	<!-- Home -->
 
 	<div class="home">
 		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/about_background.jpg"></div>
 		<div class="home_content">
-			<div class="home_title">our offers</div>
+			<div class="home_title">Nuestras Ofertas</div>
 		</div>
 	</div>
 
@@ -119,7 +49,7 @@
 
 							<div class="search_tabs_container">
 								<div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-									<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>hotels</span></div>
+									<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>Hoteles</span></div>
 								</div>		
 							</div>
 
@@ -128,7 +58,7 @@
 							<div class="search_panel active">
 								<form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destinos</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -140,19 +70,27 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_1" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_1" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<div class="search_item">
+										<div>Habitacion</div>
+										<select name="rooms" id="rooms_1" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="extras">
@@ -160,73 +98,73 @@
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_1" class="search_extras_cb">
-													<label for="search_extras_1">Pet Friendly</label>
+													<label for="search_extras_1">Se aceptan mascotas</label>
 												</div>	
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_2" class="search_extras_cb">
-													<label for="search_extras_2">Car Parking</label>
+													<label for="search_extras_2">Parqueo Gratis</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_3" class="search_extras_cb">
-													<label for="search_extras_3">Wireless Internet</label>
+													<label for="search_extras_3">Wifi</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_4" class="search_extras_cb">
-													<label for="search_extras_4">Reservations</label>
+													<label for="search_extras_4">Reservaciones</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_5" class="search_extras_cb">
-													<label for="search_extras_5">Private Parking</label>
+													<label for="search_extras_5">Parqueo privado</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_6" class="search_extras_cb">
-													<label for="search_extras_6">Smoking Area</label>
+													<label for="search_extras_6">Areas de fumadores</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_7" class="search_extras_cb">
-													<label for="search_extras_7">Wheelchair Accessible</label>
+													<label for="search_extras_7">Acceso para discapacitados</label>
 												</div>
 											</li>
 											<li class="search_extras_item">
 												<div class="clearfix">
 													<input type="checkbox" id="search_extras_8" class="search_extras_cb">
-													<label for="search_extras_8">Pool</label>
+													<label for="search_extras_8">Piscina</label>
 												</div>
 											</li>
 										</ul>
 									</div>
 									<div class="more_options">
 										<div class="more_options_trigger">
-											<a href="#">load more options</a>
+											<a href="#">Mas</a>
 										</div>
 										<ul class="more_options_list clearfix">
 											<li class="more_options_item">
 												<div class="clearfix">
 													<input type="checkbox" id="more_options_1" class="search_extras_cb">
-													<label for="more_options_1">Pet Friendly</label>
+													<label for="more_options_1">Se aceptan mascotas</label>
 												</div>	
 											</li>
 											<li class="more_options_item">
 												<div class="clearfix">
 													<input type="checkbox" id="more_options_2" class="search_extras_cb">
-													<label for="more_options_2">Car Parking</label>
+													<label for="more_options_2">Parqueo gratis</label>
 												</div>
 											</li>
 										</ul>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 
@@ -235,7 +173,7 @@
 							<div class="search_panel">
 								<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destino</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -247,22 +185,30 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_2" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_2" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+								    <div class="search_item">
+										<div>Habitaciones</div>
+										<select name="rooms" id="rooms_2" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 
@@ -271,7 +217,7 @@
 							<div class="search_panel">
 								<form action="#" id="search_form_3" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destino</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -283,22 +229,30 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_3" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_3" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+									<div class="search_item">
+										<div>Habitaciones</div>
+										<select name="rooms" id="rooms_3" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 
@@ -307,7 +261,7 @@
 							<div class="search_panel">
 								<form action="#" id="search_form_4" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destino</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -319,22 +273,30 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_4" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_4" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+									<div class="search_item">
+										<div>Habitaciones</div>
+										<select name="rooms" id="rooms_4" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 
@@ -343,7 +305,7 @@
 							<div class="search_panel">
 								<form action="#" id="search_form_5" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destino</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -355,22 +317,30 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_5" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_5" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+									<div class="search_item">
+										<div>Habitaciones</div>
+										<select name="rooms" id="rooms_5" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 
@@ -379,7 +349,7 @@
 							<div class="search_panel">
 								<form action="#" id="search_form_6" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 									<div class="search_item">
-										<div>destination</div>
+										<div>Destino</div>
 										<input type="text" class="destination search_input" required="required">
 									</div>
 									<div class="search_item">
@@ -391,22 +361,30 @@
 										<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
 									<div class="search_item">
-										<div>adults</div>
+										<div>Adultos</div>
 										<select name="adults" id="adults_6" class="dropdown_item_select search_input">
-											<option>01</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
 									<div class="search_item">
-										<div>children</div>
+										<div>Niños</div>
 										<select name="children" id="children_6" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>02</option>
-											<option>03</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
 										</select>
 									</div>
-									<button class="button search_button">search<span></span><span></span><span></span></button>
+									<div class="search_item">
+										<div>Habitaciones</div>
+										<select name="rooms" id="rooms_6" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+									</div>
+									<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 								</form>
 							</div>
 						</div>
@@ -426,48 +404,30 @@
 					<div class="offers_sorting_container">
 						<ul class="offers_sorting">
 							<li>
-								<span class="sorting_text">price</span>
+								<span class="sorting_text">Precios</span>
 								<i class="fa fa-chevron-down"></i>
 								<ul>
-									<li class="sort_btn" data-isotope-option='{ "sortBy": "original-order" }' data-parent=".price_sorting"><span>show all</span></li>
-									<li class="sort_btn" data-isotope-option='{ "sortBy": "price" }' data-parent=".price_sorting"><span>ascending</span></li>
+									<li class="sort_btn" data-isotope-option='{ "sortBy": "original-order" }' data-parent=".price_sorting"><span>Mostrar todo</span></li>
+									<li class="sort_btn" data-isotope-option='{ "sortBy": "price" }' data-parent=".price_sorting"><span>Ascendente</span></li>
 								</ul>
 							</li>
 							<li>
-								<span class="sorting_text">location</span>
+								<span class="sorting_text">Localidad</span>
 								<i class="fa fa-chevron-down"></i>
 								<ul>
-									<li class="sort_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>default</span></li>
-									<li class="sort_btn" data-isotope-option='{ "sortBy": "name" }'><span>alphabetical</span></li>
+									<li class="sort_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Por defecto</span></li>
+									<li class="sort_btn" data-isotope-option='{ "sortBy": "name" }'><span>Alfabetico</span></li>
 								</ul>
 							</li>
 							<li>
-								<span class="sorting_text">stars</span>
+								<span class="sorting_text">Estrellas</span>
 								<i class="fa fa-chevron-down"></i>
 								<ul>
-									<li class="filter_btn" data-filter="*"><span>show all</span></li>
-									<li class="sort_btn" data-isotope-option='{ "sortBy": "stars" }'><span>ascending</span></li>
+									<li class="filter_btn" data-filter="*"><span>Mostrar todos</span></li>
+									<li class="sort_btn" data-isotope-option='{ "sortBy": "stars" }'><span>Ascendente</span></li>
 									<li class="filter_btn" data-filter=".rating_3"><span>3</span></li>
 									<li class="filter_btn" data-filter=".rating_4"><span>4</span></li>
 									<li class="filter_btn" data-filter=".rating_5"><span>5</span></li>
-								</ul>
-							</li>
-							<li class="distance_item">
-								<span class="sorting_text">distance from center</span>
-								<i class="fa fa-chevron-down"></i>
-								<ul>
-									<li class="num_sorting_btn"><span>distance</span></li>
-									<li class="num_sorting_btn"><span>distance</span></li>
-									<li class="num_sorting_btn"><span>distance</span></li>
-								</ul>
-							</li>
-							<li>
-								<span class="sorting_text">reviews</span>
-								<i class="fa fa-chevron-down"></i>
-								<ul>
-									<li class="num_sorting_btn"><span>review</span></li>
-									<li class="num_sorting_btn"><span>review</span></li>
-									<li class="num_sorting_btn"><span>review</span></li>
 								</ul>
 							</li>
 						</ul>
@@ -704,38 +664,6 @@
 
 			</div>
 		</div>		
-	</div>
-
-	<!-- Footer -->
-
-	
-	<!-- Copyright -->
-
-	<div class="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 order-lg-1 order-2  ">
-					<div class="copyright_content d-flex flex-row align-items-center">
-						<div><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					</div>
-				</div>
-				<div class="col-lg-9 order-lg-2 order-1">
-					<div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
-						<div class="footer_nav">
-							<ul class="footer_nav_list">
-								<li class="footer_nav_item"><a href="index.html">home</a></li>
-								<li class="footer_nav_item"><a href="about.html">aboutus</a></li>
-								<li class="footer_nav_item"><a href="#">offers</a></li>
-								<li class="footer_nav_item"><a href="blog.html">newsSSSSAAA</a></li>
-								<li class="footer_nav_item"><a href="contact.html">contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 
 </div>
