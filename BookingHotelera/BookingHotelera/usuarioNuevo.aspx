@@ -1,7 +1,8 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/InicioMater.Master" CodeBehind="usuarioNuevo.aspx.vb" Inherits="BookingHotelera.usuarioNuevo" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/LoginMaster.Master" CodeBehind="usuarioNuevo.aspx.vb" Inherits="BookingHotelera.usuarioNuevo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <!DOCTYPE html>
 <html lang="en">
       <head>
@@ -65,4 +66,6 @@
          
    </body>
 </html>
+
+
 </asp:Content>
