@@ -1,7 +1,8 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="BookingHotelera.Login" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" MasterPageFile="~/LoginMaster.Master" CodeBehind="Login.aspx.vb" Inherits="BookingHotelera.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 <!DOCTYPE html>
 <html lang="en">
       <head>
@@ -59,7 +60,7 @@
                                     </p>
                                 </div>
                                 <div class="form-group">
-                                    <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                                    <p class="text-center">¿No tienes cuenta? <a href="usuarioNuevo.aspx" id="signup">Registrate aquí</a></p>
                                 </div>
                         </form>
                     
@@ -69,4 +70,7 @@
         </div>
     </body>
 </html>
+
+
+
 </asp:Content>
