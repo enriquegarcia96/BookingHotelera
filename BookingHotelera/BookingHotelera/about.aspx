@@ -44,8 +44,8 @@
 				<div class="col-lg-5">
 					<div class="intro_content">
 						<div class="intro_title">Tenemos los mejores tours</div>
-						<p class="intro_text">Mi ideal de vida sería vivir en un hotel donde no me faltaran los libros y donde no dieran mal de comer.</p>
-						<div class="button intro_button"><div class="button_bcg"></div><a href="#">Explore Ahora<span></span><span></span><span></span></a></div>
+						<p class="intro_text">"Porque nuestro huesped, es nuestra razón de ser. Encuentra tu hotel ideal en Travelix.</p>
+						<div class="button intro_button"><div class="button_bcg"></div><a href="#">Explora Ahora<span></span><span></span><span></span></a></div>
 					</div>
 				</div>
 			</div>
@@ -69,8 +69,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="stats_years">
-						<div class="stats_years_last">2016</div>
-						<div class="stats_years_new float-right">2017</div>
+						<div class="stats_years_last">2018</div>
+						<div class="stats_years_new float-right">2019</div>
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 									<img src="images/stats_1.png" alt="">
 								</div>
 								<div class="stats_last_content">
-									<div class="stats_number">1642</div>
+									<div class="stats_number">3500</div>
 									<div class="stats_type">Clientes</div>
 								</div>
 							</div>
@@ -130,7 +130,7 @@
 									<img src="images/stats_2.png" alt="">
 								</div>
 								<div class="stats_new_content">
-									<div class="stats_number">145</div>
+									<div class="stats_number">580</div>
 									<div class="stats_type">Clientes que regresan</div>
 								</div>
 							</div>
@@ -210,8 +210,8 @@
 						<div class="add_background" style="background-image:url(images/HotelB.jpg)"></div>
 						<div class="add_content">
 							<h1 class="add_title">Honduras</h1>
-							<div class="add_subtitle">From <span>$999</span></div>
-							<div class="button add_button"><div class="button_bcg"></div><a href="#">Explore Ahora<span></span><span></span><span></span></a></div>
+							<div class="add_subtitle">Desde <span>$499</span></div>
+							<div class="button add_button"><div class="button_bcg"></div><a href="#">Explora Ahora<span></span><span></span><span></span></a></div>
 						</div>
 					</div>
 				</div>
