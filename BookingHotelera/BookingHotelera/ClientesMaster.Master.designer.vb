@@ -11,32 +11,32 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Login
+Partial Public Class ClientesMaster
 
     '''<summary>
-    '''Control txtCorreo.
+    '''Control head.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtCorreo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
-    '''Control txtContraseña.
+    '''Control form1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtContraseña As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control btnIniciarSesion.
+    '''Control ContentPlaceHolder1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnIniciarSesion As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents ContentPlaceHolder1 As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class

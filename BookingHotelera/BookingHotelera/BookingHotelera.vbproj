@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="blog.aspx" />
+    <Content Include="Clientes.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="elements.aspx" />
     <Content Include="images\about_background.jpg" />
@@ -284,6 +285,20 @@
       <DependentUpon>blog.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Clientes.aspx.designer.vb">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.aspx.vb">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ClientesMaster.Master.designer.vb">
+      <DependentUpon>ClientesMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesMaster.Master.vb">
+      <DependentUpon>ClientesMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="contact.aspx.designer.vb">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
@@ -380,6 +395,7 @@
     <Content Include="fonts\beyond_the_mountains.ttf" />
     <Content Include="InicioMater.Master" />
     <Content Include="LoginMaster.Master" />
+    <Content Include="ClientesMaster.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
       <head>
-         <title>Iniciar sesion</title>
+      <title>Iniciar sesion</title>
          <meta charset="utf-8">
          <meta http-equiv="X-UA-Compatible" content="IE=edge">
          <meta name="description" content="Travelix Project">
@@ -33,18 +33,20 @@
                             </div>
                         <form action="" method="post" name="login">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Correo Electronico</label>
-                                    <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese correo electronico">
+                                    <label for="exampleInputEmail1">Correo Electronico</label>&nbsp;
+                                    <br />
+                                    <asp:TextBox ID="txtCorreo" runat="server" TabIndex="1" Width="415px"></asp:TextBox>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Contraseña</label>
-                                    <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Ingrese contraseña">
+                                    <label for="exampleInputEmail1">Contraseña</label>&nbsp;
+                                    <br />
+                                    <asp:TextBox ID="txtContraseña" runat="server" TabIndex="2" TextMode="Password" Width="415px"></asp:TextBox>
                                 </div>
                                 <div class="form-group">
                                     <p class="text-center">Aceptar <a href="#">terminos de usuarios</a></p>
                                 </div>
                                 <div class="col-md-12 text-center ">
-                                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Iniciar Sesion</button>
+                                    <asp:Button ID="btnIniciarSesion" runat="server" BackColor="#0066FF" TabIndex="3" Text="Iniciar Sesion " Width="300px" />
                                 </div>
                                 <div class="col-md-12 ">
                                     <div class="login-or">

@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/InicioMater.Master" CodeBehind="index.aspx.vb" Inherits="BookingHotelera.WebForm1" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/ClientesMaster.Master" CodeBehind="Clientes.aspx.vb" Inherits="BookingHotelera.Clientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
+</asp:Content>
 
-
-
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!DOCTYPE html>
-<html lang="en">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Travelix</title>
 <meta charset="utf-8">
@@ -21,14 +21,8 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
-
 <body>
-
-<div class="super_container">
-	
-	
-
-	<!-- Home -->
+    <!-- Home -->
 
 	<div class="home">
 		
@@ -951,11 +945,7 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Footer -->
-
-	
-
+    
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -964,10 +954,5 @@
 <script src="js/custom.js"></script>
 
 </body>
-
 </html>
-
-
-
 </asp:Content>
-
