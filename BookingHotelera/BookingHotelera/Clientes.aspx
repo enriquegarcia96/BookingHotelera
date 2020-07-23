@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/InicioMater.Master" CodeBehind="index.aspx.vb" Inherits="BookingHotelera.WebForm1" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/ClientesMaster.Master" CodeBehind="Clientes.aspx.vb" Inherits="BookingHotelera.Clientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
+</asp:Content>
 
-
-
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!DOCTYPE html>
-<html lang="en">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Travelix</title>
 <meta charset="utf-8">
@@ -21,14 +21,8 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
-
 <body>
-
-<div class="super_container">
-	
-	
-
-	<!-- Home -->
+    <!-- Home -->
 
 	<div class="home">
 		
@@ -187,7 +181,7 @@
 							<!-- COMBOBOX DE CANTIDA DE HABITACIONES -->
 							<div class="search_item">
 								<div>Habitaciones</div>
-								<select name="children" id="habitaciones" class="dropdown_item_select search_input">
+								<select name="children" id="children_1" class="dropdown_item_select search_input">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
@@ -922,14 +916,36 @@
 					</div>
 				</div>
 
-
 			</div>
 		</div>
 	</div>
 
-	<!-- Copyright -->
-</div>
+	<div class="contact">
+		<div class="contact_background" style="background-image:url(images/contact.png)"></div>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="contact_image">
+						
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="contact_form_container">
+						<div class="contact_title">get in touch</div>
+						<form action="#" id="contact_form" class="contact_form">
+							<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
+							<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
+							<input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
+							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
+							<button type="submit" id="form_submit_button" class="form_submit_button button">send message<span></span><span></span><span></span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -938,10 +954,5 @@
 <script src="js/custom.js"></script>
 
 </body>
-
 </html>
-
-
-
 </asp:Content>
-
