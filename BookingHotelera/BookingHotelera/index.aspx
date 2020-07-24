@@ -181,6 +181,7 @@
 							<div class="search_item">
 								<div>Habitaciones</div>
 								<select name="rooms" id="rooms_1" class="dropdown_item_select search_input">
+
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
@@ -930,12 +931,6 @@
 					</div>
 				</div>
 
-			</div>
-		</div>
-	</div>
-
-	<div class="contact">
-		<div class="contact_background" style="background-image:url(images/contact.png)"></div>
 
 		<div class="container">
 			<div class="row">
@@ -956,9 +951,7 @@
 						</form>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
+
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
