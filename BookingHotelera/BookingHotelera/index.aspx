@@ -6,7 +6,7 @@
 
 
     <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Travelix</title>
 <meta charset="utf-8">
@@ -23,10 +23,6 @@
 </head>
 
 <body>
-
-<div class="super_container">
-	
-	
 
 	<!-- Home -->
 
@@ -45,9 +41,9 @@
 
 					<div class="home_slider_content text-center">
 						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
-							<h1>discover</h1>
-							<h1>the world</h1>
-							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">explore now<span></span><span></span><span></span></a></div>
+							<h1>Descubre</h1>
+							<h1>el Mundo</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">Explorar<span></span><span></span><span></span></a></div>
 						</div>
 					</div>
 				</div>
@@ -58,9 +54,9 @@
 
 					<div class="home_slider_content text-center">
 						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
-							<h1>discover</h1>
-							<h1>the world</h1>
-							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">explore now<span></span><span></span><span></span></a></div>
+							<h1>Descubre</h1>
+							<h1>el Mundo</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">Explorar<span></span><span></span><span></span></a></div>
 						</div>
 					</div>
 				</div>
@@ -71,9 +67,9 @@
 
 					<div class="home_slider_content text-center">
 						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
-							<h1>discover</h1>
-							<h1>the world</h1>
-							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">explore now<span></span><span></span><span></span></a></div>
+							<h1>Descubre</h1>
+							<h1>el Mundo</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#">Explorar<span></span><span></span><span></span></a></div>
 						</div>
 					</div>
 				</div>
@@ -145,7 +141,7 @@
 
 					<div class="search_tabs_container">
 						<div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>hotels</span></div>
+							<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>hoteles</span></div>
 							
 						</div>		
 					</div>
@@ -169,31 +165,27 @@
 							<div class="search_item">
 								<div>adultos</div>
 								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
 								</select>
 							</div>
 							<div class="search_item">
 								<div>niños</div>
-
-								<select name="children" id="children_1" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-
-							<!-- COMBOBOX DE CANTIDA DE HABITACIONES -->
-							<div class="search_item">
-								<div>Habitaciones</div>
 								<select name="children" id="children_1" class="dropdown_item_select search_input">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
 								</select>
 							</div>
-
+							<div class="search_item">
+								<div>Habitaciones</div>
+								<select name="rooms" id="rooms_1" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
 							<button class="button search_button">search<span></span><span></span><span></span></button>
 						</form>
 					</div>
@@ -203,34 +195,42 @@
 					<div class="search_panel">
 						<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
-								<div>destination</div>
+								<div>Destino</div>
 								<input type="text" class="destination search_input" required="required">
 							</div>
 							<div class="search_item">
-								<div>check in</div>
+								<div>Check in</div>
 								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
-								<div>check out</div>
+								<div>Check out</div>
 								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
-								<div>adults</div>
+								<div>Adultos</div>
 								<select name="adults" id="adults_2" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
 								</select>
 							</div>
 							<div class="search_item">
-								<div>children</div>
+								<div>Niños</div>
 								<select name="children" id="children_2" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
 								</select>
 							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
+							<div class="search_item">
+								<div>Habitaciones</div>
+								<select name="rooms" id="rooms_2" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 						</form>
 					</div>
 
@@ -239,34 +239,42 @@
 					<div class="search_panel">
 						<form action="#" id="search_form_3" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
-								<div>destination</div>
+								<div>Destino</div>
 								<input type="text" class="destination search_input" required="required">
 							</div>
 							<div class="search_item">
-								<div>check in</div>
+								<div>Check in</div>
 								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
-								<div>check out</div>
+								<div>Check out</div>
 								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
-								<div>adults</div>
+								<div>Adultos</div>
 								<select name="adults" id="adults_3" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
 								</select>
 							</div>
 							<div class="search_item">
-								<div>children</div>
+								<div>Niños</div>
 								<select name="children" id="children_3" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
 								</select>
 							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
+							<div class="search_item">
+								<div>Habitaciones</div>
+								<select name="rooms" id="rooms_3" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<button class="button search_button">Buscar<span></span><span></span><span></span></button>
 						</form>
 					</div>
 
@@ -462,7 +470,7 @@
 							<div class="button intro_button"><div class="button_bcg"></div><a href="#">see more<span></span><span></span><span></span></a></div>
 							<div class="intro_center text-center">
 								<h1>Scotland</h1>
-								<div class="intro_price">From $1450</div>
+								<div class="intFrom $1450</div>
 								<div class="rating rating_4">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -488,7 +496,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<h2 class="section_title">the best offers with rooms</h2>
+					<h2 class="section_title">La Mejores Ofertas</h2>
 				</div>
 			</div>
 			<div class="row offers_items">
@@ -506,7 +514,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$70<span>per night</span></div>
+									<div class="offers_price">$70<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -523,7 +531,7 @@
 											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 										</ul>
 									</div>
-									<div class="offers_link"><a href="offers.html">read more</a></div>
+									<div class="offers_link"><a href="offers.html">Leer más</a></div>
 								</div>
 							</div>
 						</div>
@@ -543,7 +551,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$50<span>per night</span></div>
+									<div class="offers_price">$50<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -560,7 +568,7 @@
 											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 										</ul>
 									</div>
-									<div class="offers_link"><a href="offers.html">read more</a></div>
+									<div class="offers_link"><a href="offers.html">Leer más</a></div>
 								</div>
 							</div>
 						</div>
@@ -580,7 +588,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$90<span>per night</span></div>
+									<div class="offers_price">$90<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -597,7 +605,7 @@
 											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 										</ul>
 									</div>
-									<div class="offers_link"><a href="offers.html">read more</a></div>
+									<div class="offers_link"><a href="offers.html">Leer más</a></div>
 								</div>
 							</div>
 						</div>
@@ -617,7 +625,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$30<span>per night</span></div>
+									<div class="offers_price">$30<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -634,7 +642,7 @@
 											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 										</ul>
 									</div>
-									<div class="offers_link"><a href="offers.html">read more</a></div>
+									<div class="offers_link"><a href="offers.html">Leer más</a></div>
 								</div>
 							</div>
 						</div>
@@ -652,7 +660,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<h2 class="section_title">what our clients say about us</h2>
+					<h2 class="section_title">Que dicen los clientes sobre nosotros</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -672,9 +680,9 @@
 										<div class="test_content">
 											<div class="test_item_info">
 												<div class="test_name">carla smith</div>
-												<div class="test_date">May 24, 2017</div>
+												<div class="test_date">May 24, 2018</div>
 											</div>
-											<div class="test_quote_title">" Best holliday ever "</div>
+											<div class="test_quote_title">" Las mejores vacaciones "</div>
 											<p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
 										</div>
 									</div>
@@ -689,10 +697,10 @@
 									<div class="test_content_container">
 										<div class="test_content">
 											<div class="test_item_info">
-												<div class="test_name">carla smith</div>
-												<div class="test_date">May 24, 2017</div>
+												<div class="test_name">Sofia Garcia</div>
+												<div class="test_date">Ago 14, 2018</div>
 											</div>
-											<div class="test_quote_title">" Best holliday ever "</div>
+											<div class="test_quote_title">" Grandes experiencias con excelentes precios "</div>
 											<p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
 										</div>
 									</div>
@@ -707,10 +715,10 @@
 									<div class="test_content_container">
 										<div class="test_content">
 											<div class="test_item_info">
-												<div class="test_name">carla smith</div>
-												<div class="test_date">May 24, 2017</div>
+												<div class="test_name">Antonio Sierra</div>
+												<div class="test_date">Ene 20, 2019</div>
 											</div>
-											<div class="test_quote_title">" Best holliday ever "</div>
+											<div class="test_quote_title">" Servicio de un alto nivel "</div>
 											<p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
 										</div>
 									</div>
@@ -821,7 +829,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<h2 class="section_title">trending now</h2>
+					<h2 class="section_title">Tendencias</h2>
 				</div>
 			</div>
 			<div class="row trending_container">
@@ -832,7 +840,7 @@
 						<div class="trending_image"><img src="images/trend_1.png" alt="https://unsplash.com/@fransaraco"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">grand hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -844,7 +852,7 @@
 						<div class="trending_image"><img src="images/trend_2.png" alt="https://unsplash.com/@grovemade"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">mars hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -856,7 +864,7 @@
 						<div class="trending_image"><img src="images/trend_3.png" alt="https://unsplash.com/@jbriscoe"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">queen hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -868,7 +876,7 @@
 						<div class="trending_image"><img src="images/trend_4.png" alt="https://unsplash.com/@oowgnuj"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">mars hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -880,7 +888,7 @@
 						<div class="trending_image"><img src="images/trend_5.png" alt="https://unsplash.com/@mindaugas"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">grand hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -892,7 +900,7 @@
 						<div class="trending_image"><img src="images/trend_6.png" alt="https://unsplash.com/@itsnwa"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">mars hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -904,7 +912,7 @@
 						<div class="trending_image"><img src="images/trend_7.png" alt="https://unsplash.com/@rktkn"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">queen hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -916,7 +924,7 @@
 						<div class="trending_image"><img src="images/trend_8.png" alt="https://unsplash.com/@thoughtcatalog"></div>
 						<div class="trending_content">
 							<div class="trending_title"><a href="#">mars hotel</a></div>
-							<div class="trending_price">From $182</div>
+							<div class="trending_price">Desde $182</div>
 							<div class="trending_location">madrid, spain</div>
 						</div>
 					</div>
@@ -938,23 +946,19 @@
 				</div>
 				<div class="col-lg-7">
 					<div class="contact_form_container">
-						<div class="contact_title">get in touch</div>
+						<div class="contact_title">Contactanos</div>
 						<form action="#" id="contact_form" class="contact_form">
-							<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
-							<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
-							<input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
-							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
-							<button type="submit" id="form_submit_button" class="form_submit_button button">send message<span></span><span></span><span></span></button>
+							<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Nombre" required="required" data-error="Name is required.">
+							<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="Correo electronico" required="required" data-error="Email is required.">
+							<input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Asunto" required="required" data-error="Subject is required.">
+							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Mensaje" required="required" data-error="Please, write us a message."></textarea>
+							<button type="submit" id="form_submit_button" class="form_submit_button button">Enviar mensaje<span></span><span></span><span></span></button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- Footer -->
-
-	
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
@@ -966,6 +970,10 @@
 </body>
 
 </html>
+
+
+
+    </div>
 
 
 
