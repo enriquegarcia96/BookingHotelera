@@ -4,8 +4,8 @@ Imports Microsoft.VisualBasic
 
 
 Public Class Conexion
-
-    Dim abriendoConexion As String = "Data source=localhost; Initial Catalog=BookingHotelera; Integrate Security=True"
+    'cambiar por localhost
+    Dim abriendoConexion As String = "Data source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; Integrate Security=True"
 
     'consulta ala base de datos
     Public Function Consultas(ByVal Comando As String)
