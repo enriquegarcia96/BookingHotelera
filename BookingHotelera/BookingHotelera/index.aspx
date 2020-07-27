@@ -930,13 +930,16 @@
 						</div>
 					</div>
 				</div>
+		</div>
+	</div>
+</div>
 
 
+	<!--
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<div class="contact_image">
-						
+					<div class="contact_image">						
 					</div>
 				</div>
 				<div class="col-lg-7">
@@ -951,24 +954,15 @@
 						</form>
 					</div>
 				</div>
-	
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
-
+	    </div>
+</div>  -->
+			<script src="js/jquery-3.2.1.min.js"></script>
+			<script src="styles/bootstrap4/popper.js"></script>
+			<script src="styles/bootstrap4/bootstrap.min.js"></script>
+			<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+			<script src="plugins/easing/easing.js"></script>
+			<script src="js/custom.js"></script>
 </body>
-
 </html>
-
-
-
-    </div>
-
-
-
 </asp:Content>
 
