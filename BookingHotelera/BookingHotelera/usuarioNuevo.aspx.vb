@@ -37,7 +37,7 @@ Public Class usuarioNuevo
 
     End Sub
 
+    Protected Sub DropGenero_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropGenero.SelectedIndexChanged
 
-
-
+    End Sub
 End Class
