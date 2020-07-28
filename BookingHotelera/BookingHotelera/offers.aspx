@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Offers</title>
 <meta charset="utf-8">
@@ -453,7 +453,7 @@
 								</div>
 								<div class="col-lg-8">
 									<div class="offers_content">
-										<div class="offers_price">$70<span>per night</span></div>
+										<div class="offers_price">$70<span>Por Una Noche</span></div>
 										<div class="rating_r rating_r_4 offers_rating" data-rating="4">
 											<i></i>
 											<i></i>
@@ -461,7 +461,7 @@
 											<i></i>
 											<i></i>
 										</div>
-										<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Lorem ipsum dolor sit amet.</p>
+										<p class="offers_text"> No es posible para un hombre ser elegante, sin un toque de femineidad</p>
 										<div class="offers_icons">
 											<ul class="offers_icons_list">
 												<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -470,11 +470,11 @@
 												<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 											</ul>
 										</div>
-										<div class="button book_button"><a href="#">book<span></span><span></span><span></span></a></div>
+										<div class="button book_button"><a href="#">Libro<span></span><span></span><span></span></a></div>
 										<div class="offer_reviews">
 											<div class="offer_reviews_content">
-												<div class="offer_reviews_title">very good</div>
-												<div class="offer_reviews_subtitle">100 reviews</div>
+												<div class="offer_reviews_title">Muy Bien</div>
+												<div class="offer_reviews_subtitle">100 Comentarios</div>
 											</div>
 											<div class="offer_reviews_rating text-center">8.1</div>
 										</div>
@@ -492,12 +492,12 @@
 									<div class="offers_image_container">
 										<!-- Image by https://unsplash.com/@thoughtcatalog -->
 										<div class="offers_image_background" style="background-image:url(images/offer_5.jpg)"></div>
-										<div class="offer_name"><a href="single_listing.html">eurostar hotel</a></div>
+										<div class="offer_name"><a href="single_listing.html">Hotel estrella</a></div>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<div class="offers_content">
-										<div class="offers_price">$50<span>per night</span></div>
+										<div class="offers_price">$50<span>Por Noche</span></div>
 										<div class="rating_r rating_r_3 offers_rating" data-rating="3">
 											<i></i>
 											<i></i>
@@ -505,7 +505,7 @@
 											<i></i>
 											<i></i>
 										</div>
-										<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Lorem ipsum dolor sit amet.</p>
+										<p class="offers_text">En este elegante hotel, el servicio de habitaciones tiene teléfono privado. </p>
 										<div class="offers_icons">
 											<ul class="offers_icons_list">
 												<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -514,11 +514,11 @@
 												<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 											</ul>
 										</div>
-										<div class="button book_button"><a href="#">book<span></span><span></span><span></span></a></div>
+										<div class="button book_button"><a href="#">Libro<span></span><span></span><span></span></a></div>
 										<div class="offer_reviews">
 											<div class="offer_reviews_content">
-												<div class="offer_reviews_title">very good</div>
-												<div class="offer_reviews_subtitle">100 reviews</div>
+												<div class="offer_reviews_title">Muy Bien</div>
+												<div class="offer_reviews_subtitle">100 Comentarios</div>
 											</div>
 											<div class="offer_reviews_rating text-center">8.1</div>
 										</div>
@@ -536,12 +536,12 @@
 									<div class="offers_image_container">
 										<!-- Image by https://unsplash.com/@mindaugas -->
 										<div class="offers_image_background" style="background-image:url(images/offer_6.jpg)"></div>
-										<div class="offer_name"><a href="single_listing.html">grand castle</a></div>
+										<div class="offer_name"><a href="single_listing.html">Gran Castillo</a></div>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<div class="offers_content">
-										<div class="offers_price">$110<span>per night</span></div>
+										<div class="offers_price">$110<span>Por Noche</span></div>
 										<div class="rating_r rating_r_5 offers_rating"  data-rating="5">
 											<i></i>
 											<i></i>
@@ -549,7 +549,7 @@
 											<i></i>
 											<i></i>
 										</div>
-										<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Lorem ipsum dolor sit amet.</p>
+										<p class="offers_text">Genio no es nada más que sentido común elegante</p>
 										<div class="offers_icons">
 											<ul class="offers_icons_list">
 												<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -558,11 +558,11 @@
 												<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 											</ul>
 										</div>
-										<div class="button book_button"><a href="#">book<span></span><span></span><span></span></a></div>
+										<div class="button book_button"><a href="#">Libro<span></span><span></span><span></span></a></div>
 										<div class="offer_reviews">
 											<div class="offer_reviews_content">
 												<div class="offer_reviews_title">very good</div>
-												<div class="offer_reviews_subtitle">100 reviews</div>
+												<div class="offer_reviews_subtitle">100 Comentarios</div>
 											</div>
 											<div class="offer_reviews_rating text-center">8.1</div>
 										</div>
@@ -580,12 +580,12 @@
 									<div class="offers_image_container">
 										<!-- Image by https://unsplash.com/@rktkn -->
 										<div class="offers_image_background" style="background-image:url(images/offer_7.jpg)"></div>
-										<div class="offer_name"><a href="single_listing.html">eurostar hotel</a></div>
+										<div class="offer_name"><a href="single_listing.html">Hotel Estrella</a></div>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<div class="offers_content">
-										<div class="offers_price">$50<span>per night</span></div>
+										<div class="offers_price">$50<span>Por Noche</span></div>
 										<div class="rating_r rating_r_4 offers_rating" data-rating="4">
 											<i></i>
 											<i></i>
@@ -593,7 +593,7 @@
 											<i></i>
 											<i></i>
 										</div>
-										<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Lorem ipsum dolor sit amet.</p>
+										<p class="offers_text">Sin un conocimiento de la mitología mucha de la literatura elegante de nuestra propia lengua no podría ser entendida y apreciada.</p>
 										<div class="offers_icons">
 											<ul class="offers_icons_list">
 												<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -602,11 +602,11 @@
 												<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 											</ul>
 										</div>
-										<div class="button book_button"><a href="#">book<span></span><span></span><span></span></a></div>
+										<div class="button book_button"><a href="#">Libro<span></span><span></span><span></span></a></div>
 										<div class="offer_reviews">
 											<div class="offer_reviews_content">
-												<div class="offer_reviews_title">very good</div>
-												<div class="offer_reviews_subtitle">100 reviews</div>
+												<div class="offer_reviews_title">Muy bien</div>
+												<div class="offer_reviews_subtitle">100 Comentarios</div>
 											</div>
 											<div class="offer_reviews_rating text-center">8.1</div>
 										</div>
@@ -624,12 +624,12 @@
 									<div class="offers_image_container">
 										<!-- Image by https://unsplash.com/@itsnwa -->
 										<div class="offers_image_background" style="background-image:url(images/offer_8.jpg)"></div>
-										<div class="offer_name"><a href="single_listing.html">grand castle</a></div>
+										<div class="offer_name"><a href="single_listing.html">Gran Castillo</a></div>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<div class="offers_content">
-										<div class="offers_price">$90<span>per night</span></div>
+										<div class="offers_price">$90<span>Por Noche</span></div>
 										<div class="rating_r rating_r_3 offers_rating" data-rating="3">
 											<i></i>
 											<i></i>
@@ -637,7 +637,7 @@
 											<i></i>
 											<i></i>
 										</div>
-										<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Lorem ipsum dolor sit amet.</p>
+										<p class="offers_text">La elegancia única y verdadera está en la mente; si tienes eso, el resto proviene realmente de allí</p>
 										<div class="offers_icons">
 											<ul class="offers_icons_list">
 												<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -646,11 +646,11 @@
 												<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
 											</ul>
 										</div>
-										<div class="button book_button"><a href="#">book<span></span><span></span><span></span></a></div>
+										<div class="button book_button"><a href="#">Libro<span></span><span></span><span></span></a></div>
 										<div class="offer_reviews">
 											<div class="offer_reviews_content">
-												<div class="offer_reviews_title">very good</div>
-												<div class="offer_reviews_subtitle">100 reviews</div>
+												<div class="offer_reviews_title">Muy Bien</div>
+												<div class="offer_reviews_subtitle">100 Comentarios</div>
 											</div>
 											<div class="offer_reviews_rating text-center">8.1</div>
 										</div>
