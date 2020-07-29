@@ -97,6 +97,7 @@
     <Content Include="Clientes.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="elements.aspx" />
+    <Content Include="formularios\RegistroNuevo.aspx" />
     <Content Include="images\about_background.jpg" />
     <Content Include="images\add.jpg" />
     <Content Include="images\backpack.png" />
@@ -314,6 +315,13 @@
     </Compile>
     <Compile Include="elements.aspx.vb">
       <DependentUpon>elements.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="formularios\RegistroNuevo.aspx.designer.vb">
+      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\RegistroNuevo.aspx.vb">
+      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InicioMater.Master.designer.vb">

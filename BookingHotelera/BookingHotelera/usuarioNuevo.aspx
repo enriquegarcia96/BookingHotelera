@@ -18,7 +18,6 @@
 
          <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
          <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
      </head>
    <body>
          <div class="container">
@@ -50,18 +49,10 @@
                                  <asp:TextBox ID="txtCorreo" runat="server" Width="410px" class="form-control" Height="34px" placeholder="Correo Electronico" MaxLength="60" TabIndex="3" TextMode="Email" required></asp:TextBox>
                                <!--  <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese su Correo Electronico">  -->
                             </div>
-                           <div class="form-group">
-                              <label for="exampleInputEmail1">Contraseña</label>
-                              <asp:TextBox ID="txtContrasena"  runat="server"  Width="410px" class="form-control" Height="34px" placeholder="Contraseña" MaxLength="20" TabIndex="4" TextMode="Password" required></asp:TextBox>              
-                           </div>
 
                              <div class="form-group">
-                                 <label for="exampleInputEmail1">Telefono</label>
-                                 <asp:TextBox ID="txtTelefono" runat="server"  Width="410px" class="form-control" Height="34px" placeholder="Numero Telefonico" MaxLength="8" TabIndex="5" required ></asp:TextBox>                              
-                             </div>
-
-                            <div class="form-group">
-                                 <label for="exampleInputEmail1">Genero</label>
+                                 <label for="exampleInputEmail1">
+                                 Genero</label>
                                  <br />
                                  <asp:DropDownList ID="DropGenero" runat="server" Height="30px" Width="415px" TabIndex="6">
                                      <asp:ListItem Value="0" >Mujer</asp:ListItem>
@@ -75,8 +66,6 @@
                              </div>
 
                             <div class="form-group">
-                                 <label for="exampleInputEmail1">Direccion</label>
-                                 <asp:TextBox ID="txtDirecccion" runat="server"  Width="410px" class="form-control" Height="34px" placeholder="Direccion" MaxLength="80" TabIndex="8" TextMode="SingleLine"></asp:TextBox>                              
                              </div>
 
                            <div class="col-md-12 text-center mb-3">
