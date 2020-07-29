@@ -414,14 +414,14 @@
 				<div class="col-lg-4 intro_col">
 					<div class="intro_item">
 						<div class="intro_item_overlay"></div>
-						<!-- Image by https://unsplash.com/@dnevozhai -->
-						<div class="intro_item_background" style="background-image:url(images/intro_1.jpg)"></div>
+					<!-- Image by https://criterio.hn/roatan-joya-turistica-del-caribe-de-honduras/ -->
+						<div class="intro_item_background" style="background-image:url(images/Roatan2.jpg)"></div>
 						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-							<div class="intro_date">May 25th - June 01st</div>
-							<div class="button intro_button"><div class="button_bcg"></div><a href="#">see more<span></span><span></span><span></span></a></div>
+							<div class="intro_date">Abril 5- Abril 11</div>
+							<div class="button intro_button"><div class="button_bcg"></div><a href="#">Ver Mas<span></span><span></span><span></span></a></div>
 							<div class="intro_center text-center">
-								<h1>Mauritius</h1>
-								<div class="intro_price">From $1450</div>
+								<h1>Roatan</h1>
+								<div class="intro_price">Desde $450</div>
 								<div class="rating rating_4">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -440,13 +440,13 @@
 					<div class="intro_item">
 						<div class="intro_item_overlay"></div>
 						<!-- Image by https://unsplash.com/@hellolightbulb -->
-						<div class="intro_item_background" style="background-image:url(images/desierto.png)"></div>
+						<div class="intro_item_background" style="background-image:url(images/cayos.jpg)"></div>
 						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-							<div class="intro_date">May 25th - June 01st</div>
-							<div class="button intro_button"><div class="button_bcg"></div><a href="#">see more<span></span><span></span><span></span></a></div>
+							<div class="intro_date">1 mayo - 3 mayo</div>
+							<div class="button intro_button"><div class="button_bcg"></div><a href="#">Ver Mas</span><span></span><span></span></a></div>
 							<div class="intro_center text-center">
-								<h1>Greece</h1>
-								<div class="intro_price">From $1450</div>
+								<h1>Cayos Cochinos</h1>
+								<div class="intro_price">Desde $495</div>
 								<div class="rating rating_4">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -465,14 +465,14 @@
 					<div class="intro_item">
 						<div class="intro_item_overlay"></div>
 						<!-- Image by https://unsplash.com/@willianjusten -->
-						<div class="intro_item_background" style="background-image:url(images/intro_3.jpg)"></div>
+						<div class="intro_item_background" style="background-image:url(images/utilapaisa.jpg)"></div>
 						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-							<div class="intro_date">May 25th - June 01st</div>
-							<div class="button intro_button"><div class="button_bcg"></div><a href="#">see more<span></span><span></span><span></span></a></div>
+							<div class="intro_date">22 Diciembre -03 Enero</div>
+							<div class="button intro_button"><div class="button_bcg"></div><a href="#">Ver Mas<span></span><span></span><span></span></a></div>
 							<div class="intro_center text-center">
-								<h1>Scotland</h1>
-								<div class="intFrom $1450</div>
-								<div class="rating rating_4">
+								<h1>Utila</h1>
+								<div class="intFrom"> Desde $699</div>
+								<div class="rating rating_5">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -509,13 +509,13 @@
 							<div class="col-lg-6">
 								<div class="offers_image_container">
 									<!-- Image by https://unsplash.com/@kensuarez -->
-									<div class="offers_image_background" style="background-image:url(images/offer_1.jpg)"></div>
-									<div class="offer_name"><a href="#">grand castle</a></div>
+									<div class="offers_image_background" style="background-image:url(images/hilton.jpg)"></div>
+									<div class="offer_name"><a href="#">Hilton Princess</a></div>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$70<span>por noche</span></div>
+									<div class="offers_price">$55<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -523,7 +523,8 @@
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">Bienvenido al Hilton Princess San Pedro Sula, Honduras. Ubicado en el centro de la capital industrial del país, junto a la zona de centros corporativos más importantes y atracciones.
+</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -546,13 +547,13 @@
 							<div class="col-lg-6">
 								<div class="offers_image_container">
 									<!-- Image by Egzon Bytyqi -->
-									<div class="offers_image_background" style="background-image:url(images/offer_2.jpg)"></div>
-									<div class="offer_name"><a href="#">turkey hills</a></div>
+									<div class="offers_image_background" style="background-image:url(images/holidayinn.jpg)"></div>
+									<div class="offer_name"><a href="#">HOLIDAY INN EXPRESS TEGUCIGALPA</a></div>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$50<span>por noche</span></div>
+									<div class="offers_price">$65<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -560,7 +561,7 @@
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">Ubicado en Plaza San Rafael y a menos de 9 kilómetros del Aeropuerto Internacional de Toncontin, el hotel Holiday Inn Express® Tegucigalpa es la mejor opción para hospedarse ya sea que nos visite por placer o negocios.</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -583,21 +584,21 @@
 							<div class="col-lg-6">
 								<div class="offers_image_container">
 									<!-- Image by https://unsplash.com/@nevenkrcmarek -->
-									<div class="offers_image_background" style="background-image:url(images/offer_3.jpg)"></div>
-									<div class="offer_name"><a href="#">island dream</a></div>
-								</div>
+									<div class="offers_image_background" style="background-image:url(images/intercontinental.jpg)"></div>
+									<div class="offer_name"><a href="#">Int.Continental </a></div>
+									</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$90<span>por noche</span></div>
-									<div class="rating_r rating_r_4 offers_rating">
+									<div class="offers_price">$100<span>por noche</span></div>
+									<div class="rating_r rating_r_5 offers_rating">
 										<i></i>
 										<i></i>
 										<i></i>
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">Hotel de lujo con accceso a un centro comercial y spa de servicio completo cerca de Centro comercial Multiplaza Mall.</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -620,13 +621,13 @@
 							<div class="col-lg-6">
 								<div class="offers_image_container">
 									<!-- Image by https://unsplash.com/@mantashesthaven -->
-									<div class="offers_image_background" style="background-image:url(images/offer_4.jpg)"></div>
-									<div class="offer_name"><a href="#">travel light</a></div>
+									<div class="offers_image_background" style="background-image:url(images/clarion.jpg)"></div>
+									<div class="offer_name"><a href="#">Clarion Suites Roatan</a></div>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="offers_content">
-									<div class="offers_price">$30<span>por noche</span></div>
+									<div class="offers_price">$75<span>por noche</span></div>
 									<div class="rating_r rating_r_4 offers_rating">
 										<i></i>
 										<i></i>
@@ -634,7 +635,7 @@
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">Clarion Suites® Roatan, el ÚNICO complejo con acceso gratuito a la playa en la Isla privada Little French Key. Suites super espaciosos con vista al mar, con cocinas totalmente equipadas, e incluyen su propio lavandería en la habitación</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
