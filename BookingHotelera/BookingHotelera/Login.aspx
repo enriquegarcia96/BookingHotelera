@@ -41,6 +41,17 @@
                                     <br />
                                     <asp:TextBox ID="txtContraseña" runat="server" TabIndex="2" TextMode="Password" Width="415px"></asp:TextBox>
                                 </div>
+
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">Nivel de Usuario</label>&nbsp;
+                                    <br />
+                                     <br />
+                                     <asp:DropDownList ID="drlisTipoUsuario" runat="server" Height="36px" Width="425px">
+                                         <asp:ListItem Value="1">Clientes</asp:ListItem>
+                                         <asp:ListItem Value="2">Hoteles</asp:ListItem>
+                                     </asp:DropDownList>
+                                </div>
+
                                 <div class="form-group">
                                     <p class="text-center">Aceptar <a href="#">terminos de usuarios</a></p>
                                 </div>
