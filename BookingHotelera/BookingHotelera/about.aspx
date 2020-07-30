@@ -63,7 +63,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-center">
-					<p class="stats_text">Mi ideal de vida sería vivir en un hotel donde no me faltaran los libros y donde no dieran mal de comer. </p>
+					<p class="stats_text">A continuacion se va a describir las diferentes metricas, que se evaluan cada año para ver la satisfaccion del cliente, eficiencia y eficacia del hotel para la toma de decisiones para el mejoramiento del mismo.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -210,7 +210,7 @@
 						<div class="add_background" style="background-image:url(images/HotelB.jpg)"></div>
 						<div class="add_content">
 							<h1 class="add_title">Honduras</h1>
-							<div class="add_subtitle">Desde <span>$499</span></div>
+							<div class="add_subtitle">Desde <span>$250</span></div>
 							<div class="button add_button"><div class="button_bcg"></div><a href="#">Explora Ahora<span></span><span></span><span></span></a></div>
 						</div>
 					</div>
