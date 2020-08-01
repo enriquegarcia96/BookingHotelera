@@ -97,8 +97,8 @@
     <Content Include="Clientes.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="elements.aspx" />
-    <Content Include="formularios\RegistroNuevo.aspx" />
-    <Content Include="Hoteles.aspx" />
+    <Content Include="FormularioDeHoteles.aspx" />
+    <Content Include="RegistroNuevo.aspx" />
     <Content Include="images\about_background.jpg" />
     <Content Include="images\add.jpg" />
     <Content Include="images\backpack.png" />
@@ -325,26 +325,19 @@
       <DependentUpon>elements.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="formularios\RegistroNuevo.aspx.designer.vb">
-      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
+    <Compile Include="FormularioDeHoteles.aspx.designer.vb">
+      <DependentUpon>FormularioDeHoteles.aspx</DependentUpon>
     </Compile>
-    <Compile Include="formularios\RegistroNuevo.aspx.vb">
-      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
+    <Compile Include="FormularioDeHoteles.aspx.vb">
+      <DependentUpon>FormularioDeHoteles.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Hoteles.aspx.designer.vb">
-      <DependentUpon>Hoteles.aspx</DependentUpon>
+    <Compile Include="RegistroNuevo.aspx.designer.vb">
+      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Hoteles.aspx.vb">
-      <DependentUpon>Hoteles.aspx</DependentUpon>
+    <Compile Include="RegistroNuevo.aspx.vb">
+      <DependentUpon>RegistroNuevo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="HotelesMaster.Master.designer.vb">
-      <DependentUpon>HotelesMaster.Master</DependentUpon>
-    </Compile>
-    <Compile Include="HotelesMaster.Master.vb">
-      <DependentUpon>HotelesMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InicioMater.Master.designer.vb">
       <DependentUpon>InicioMater.Master</DependentUpon>
@@ -429,7 +422,6 @@
     <Content Include="InicioMater.Master" />
     <Content Include="LoginMaster.Master" />
     <Content Include="ClientesMaster.Master" />
-    <Content Include="HotelesMaster.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -480,7 +472,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="formularios\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
