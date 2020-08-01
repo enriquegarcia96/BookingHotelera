@@ -72,7 +72,7 @@
                                     </p>
                                 </div>
                                 <div class="form-group">
-                                    <p class="text-center">¿No tienes cuenta? <a href="usuarioNuevo.aspx" id="signup">Registrate aquí</a></p>
+                                    <p class="text-center">¿No tienes cuenta? <a href="RegistroNuevo.aspx" id="signup">Registrate aquí</a></p>
                                 </div>
                         </form>
                     

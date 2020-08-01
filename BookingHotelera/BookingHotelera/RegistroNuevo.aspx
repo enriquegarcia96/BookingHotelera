@@ -61,11 +61,11 @@
                                      &nbsp;
                                     <br />
                                      <asp:Label ID="lblListaUsuario" runat="server" Text="Nivel de Usuario"></asp:Label>
-                                     <asp:DropDownList ID="drlisTipoUsuario"  class="form-control" runat="server" Height="45px" Width="404px">
+                                     <br />
+                                     <asp:DropDownList ID="drlisTipoUsuario"  class="form-control" runat="server" Height="31px" Width="404px">
                                          <asp:ListItem Value="1">Clientes</asp:ListItem>
                                          <asp:ListItem Value="2">Hoteles</asp:ListItem>
                                      </asp:DropDownList>
-                                     <br />
                                 &nbsp;
                                      <asp:Label ID="lblGenero" runat="server" Text="Genero"></asp:Label>
 &nbsp;&nbsp;&nbsp;

@@ -3,15 +3,12 @@
 Public Class Registro
     Inherits System.Web.UI.Page
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        ocultarFormulario2()
-    End Sub
 
 
     Protected Sub btnIniciarSesion_Click(sender As Object, e As EventArgs) Handles btnIniciarSesion.Click
         mostrarFormulario2()
 
-        Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim conexion As New SqlConnection("Data Source=localhostE; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim ConsultaQuery As New SqlCommand("INSERT INTO Usuario (CorreoUsuario, ContraseñaUsuario, NivelUsuariao, EstadoActivo) VALUES (@Correo,@Contra,@TipoUsuario,1 )", conexion)
 
         ConsultaQuery.Parameters.AddWithValue("@Contra", SqlDbType.NVarChar).Value = txtContraseña.Text
@@ -20,37 +17,35 @@ Public Class Registro
 
         conexion.Open()
         ConsultaQuery.ExecuteNonQuery()
-
-        If drlisTipoUsuario.SelectedValue = 2 Then
+        Try
             Response.Write("<script>alert('Correo Guardado Existosamente');</script>")
-            Response.Redirect("~/FormularioDeHoteles.aspx?CorreoId=" + txtCorreo.Text)
-            'Response.Redirect("Default.aspx?Valor=" + Valor + "&Ubicac=" + Ubicac + "&Cajaa=" + Cajaa);
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
 
-
-        Else
-
-            Try
-
-            Catch ex As Exception
-                MsgBox(ex.Message)
-            End Try
-
-            'conexion.Close()
-            ocultarFormulario1()
-        End If
+        conexion.Close()
+        ocultarFormulario1()
     End Sub
 
-
-
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        ocultarFormulario2()
+    End Sub
 
 
 
     ' guardar formulario 2
     Protected Sub btbGuardar_Click(sender As Object, e As EventArgs) Handles btbGuardar.Click
-        Dim sesion As String
+<<<<<<< Updated upstream:BookingHotelera/BookingHotelera/formularios/RegistroNuevo.aspx.vb
+
         Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim ConsultaQuery As New SqlCommand("INSERT INTO Clientes (NombreCliente, ApellidoCliente, NacimientoCliente, GeneroCliente, FechaCreacionCliente, CorreoUsuario, EstadoActivo) VALUES (@Nombre, @Apellido, @Nacimiento, @Genero, @Creacion, @Correo, 1) ", Conexion)
+        Conexion.Open()
+=======
+        Dim sesion As String
+        Dim conexion As New SqlConnection("Data Source=localhost; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim ConsultaQuery As New SqlCommand("INSERT INTO Clientes (NombreCliente, ApellidoCliente, NacimientoCliente, GeneroCliente, FechaCreacionCliente, CorreoUsuario, EstadoActivo) VALUES (@Nombre, @Apellido, @Nacimiento, @Genero, @Creacion, @Correo, @num) ", conexion)
         conexion.Open()
+>>>>>>> Stashed changes:BookingHotelera/BookingHotelera/RegistroNuevo.aspx.vb
 
         'insert
         ConsultaQuery.Parameters.AddWithValue("@Nombre", SqlDbType.NVarChar).Value = txtNombre.Text
@@ -59,23 +54,18 @@ Public Class Registro
         ConsultaQuery.Parameters.AddWithValue("@Genero", SqlDbType.Int).Value = Convert.ToInt32(drGenero.SelectedValue)
         ConsultaQuery.Parameters.AddWithValue("@Creacion", Date.Now.ToString("yyyy-MM-dd")) ' para guardar la fecha, NO quitar esta linea!!!
         ConsultaQuery.Parameters.AddWithValue("@Correo", SqlDbType.NVarChar).Value = txtCorreo.Text
-        ConsultaQuery.Parameters.AddWithValue("@num", SqlDbType.Int).Value = 1
 
         ConsultaQuery.ExecuteNonQuery()
 
         Try
-            Session("Usuario") = txtCorreo.Text
             Response.Write("<script>alert('Los Datos Fueron Guardados Exitosamente');</script>")
-            Response.Redirect("~/Clientes.aspx")
+            Server.Transfer("~/Clientes.aspx")
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
 
         conexion.Close()
     End Sub
-
-
-
 
     Protected Sub linkRegistro_Click(sender As Object, e As EventArgs) Handles linkRegistro.Click
         MostrarFormulario1()

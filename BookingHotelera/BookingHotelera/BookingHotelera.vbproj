@@ -97,8 +97,7 @@
     <Content Include="Clientes.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="elements.aspx" />
-    <Content Include="FormularioDeHoteles.aspx" />
-    <Content Include="RegistroNuevo.aspx" />
+    <Content Include="formularios\RegistroNuevo.aspx" />
     <Content Include="images\about_background.jpg" />
     <Content Include="images\add.jpg" />
     <Content Include="images\backpack.png" />
@@ -325,19 +324,11 @@
       <DependentUpon>elements.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="FormularioDeHoteles.aspx.designer.vb">
-      <DependentUpon>FormularioDeHoteles.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FormularioDeHoteles.aspx.vb">
-      <DependentUpon>FormularioDeHoteles.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="RegistroNuevo.aspx.designer.vb">
+    <Compile Include="formularios\RegistroNuevo.aspx.designer.vb">
       <DependentUpon>RegistroNuevo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegistroNuevo.aspx.vb">
+    <Compile Include="formularios\RegistroNuevo.aspx.vb">
       <DependentUpon>RegistroNuevo.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InicioMater.Master.designer.vb">
       <DependentUpon>InicioMater.Master</DependentUpon>
@@ -472,9 +463,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="formularios\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
