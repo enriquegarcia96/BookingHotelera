@@ -98,6 +98,7 @@
     <Content Include="contact.aspx" />
     <Content Include="elements.aspx" />
     <Content Include="FormularioDeHoteles.aspx" />
+    <Content Include="Hoteles.aspx" />
     <Content Include="RegistroNuevo.aspx" />
     <Content Include="images\about_background.jpg" />
     <Content Include="images\add.jpg" />
@@ -259,6 +260,7 @@
     <Content Include="plugins\parallax-js-master\parallax.min.js" />
     <Content Include="plugins\progressbar\progressbar.min.js" />
     <Content Include="plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="servicios.aspx" />
     <Content Include="single_listing.aspx" />
     <Content Include="styles\about_responsive.css" />
     <Content Include="styles\about_styles.css" />
@@ -332,6 +334,19 @@
       <DependentUpon>FormularioDeHoteles.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Globales.vb" />
+    <Compile Include="Hoteles.aspx.designer.vb">
+      <DependentUpon>Hoteles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hoteles.aspx.vb">
+      <DependentUpon>Hoteles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotelesMaster.Master.designer.vb">
+      <DependentUpon>HotelesMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HotelesMaster.Master.vb">
+      <DependentUpon>HotelesMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="RegistroNuevo.aspx.designer.vb">
       <DependentUpon>RegistroNuevo.aspx</DependentUpon>
     </Compile>
@@ -393,6 +408,13 @@
       <DependentUpon>offers.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="servicios.aspx.designer.vb">
+      <DependentUpon>servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servicios.aspx.vb">
+      <DependentUpon>servicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="single_listing.aspx.designer.vb">
       <DependentUpon>single_listing.aspx</DependentUpon>
     </Compile>
@@ -422,6 +444,7 @@
     <Content Include="InicioMater.Master" />
     <Content Include="LoginMaster.Master" />
     <Content Include="ClientesMaster.Master" />
+    <Content Include="HotelesMaster.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

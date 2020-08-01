@@ -25,7 +25,11 @@ Public Class Login
 
         If (DR.Read()) Then
             Session("Usuario") = txtCorreo.Text
-            Response.Redirect("~/Clientes.aspx")
+            If (drlisTipoUsuario.SelectedValue = "Clientes") Then
+                Response.Redirect("~/Clientes.aspx")
+            ElseIf drlisTipoUsuario.SelectedValue = "Hoteles") Then
+                Response.Redirect("~/Hoteles.aspx")
+            End If
         Else
             Response.Write("Usuario invalido")
         End If

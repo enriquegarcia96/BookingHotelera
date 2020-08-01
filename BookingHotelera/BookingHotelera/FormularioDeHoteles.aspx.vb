@@ -14,7 +14,7 @@ Public Class FormularioDeHoteles
 
         Dim imagen As String = "~/images/" + FileFotoHotel.FileName
 
-        Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim conexion As New SqlConnection("Data Source=localhost; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim consultaQuery As New SqlCommand(" INSERT INTO Hoteles (NombreHotel, FotoHotel, DescripcionHotel, UbicacionHotel, IdServicio, EstrellasHotel,
 	                                            IdCiudad, CheckInInicioHotel, CheckInFinalHotel, CheckOutInicioHotel, CheckOutFinalHotel, FechaCreacionHotel,
 		                                        CorreoUsuario, EstadoActivo) VALUES (@nombreHotel, @Foto, @DescripcionHotel, @UbicacionHotel, @Servicio, @EstrellaHotel, @Ciudad, @CheckInInicioHotel, @CheckInFinalHotel, @CheckOutInicioHotel, 
@@ -41,7 +41,7 @@ Public Class FormularioDeHoteles
         Try
             Session("Usuario") = txtCorreoUsuario.Text
             Response.Write("<script>alert('Los Datos Del Hotel Fueron Guardados Correctamente');</script>")
-            Response.Redirect("~/Clientes.aspx") ' cambiar al
+            Response.Redirect("~/Hoteles.aspx") ' cambiar al
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

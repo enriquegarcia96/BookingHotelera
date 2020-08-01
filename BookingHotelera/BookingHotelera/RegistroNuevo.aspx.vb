@@ -11,7 +11,7 @@ Public Class Registro
     Protected Sub btnIniciarSesion_Click(sender As Object, e As EventArgs) Handles btnIniciarSesion.Click
         mostrarFormulario2()
 
-        Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim conexion As New SqlConnection("Data Source=localhost; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim ConsultaQuery As New SqlCommand("INSERT INTO Usuario (CorreoUsuario, ContraseñaUsuario, NivelUsuariao, EstadoActivo) VALUES (@Correo,@Contra,@TipoUsuario,1 )", conexion)
 
         ConsultaQuery.Parameters.AddWithValue("@Contra", SqlDbType.NVarChar).Value = txtContraseña.Text
@@ -48,7 +48,7 @@ Public Class Registro
     ' guardar formulario 2
     Protected Sub btbGuardar_Click(sender As Object, e As EventArgs) Handles btbGuardar.Click
         Dim sesion As String
-        Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim conexion As New SqlConnection("Data Source=localhost; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim ConsultaQuery As New SqlCommand("INSERT INTO Clientes (NombreCliente, ApellidoCliente, NacimientoCliente, GeneroCliente, FechaCreacionCliente, CorreoUsuario, EstadoActivo) VALUES (@Nombre, @Apellido, @Nacimiento, @Genero, @Creacion, @Correo, @num) ", conexion)
         conexion.Open()
 
