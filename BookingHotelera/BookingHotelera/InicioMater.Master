@@ -47,7 +47,11 @@
 						</div>
 						<div class="user_box ml-auto">
 							<div class="user_box_login user_box_link"><a href="Login.aspx">Iniciar Sesión</a></div>
-							<div class="user_box_register user_box_link"><a href="formularios/RegistroNuevo.aspx">Registrarse</a></div>
+<<<<<<< Updated upstream
+							<div class="user_box_register user_box_link"><a href="usuarioNuevo.aspx">Registrarse</a></div>
+=======
+							<div class="user_box_register user_box_link"><a href="RegistroNuevo.aspx">Registrarse</a></div>
+>>>>>>> Stashed changes
 						</div>
 					</div>
 				</div>
