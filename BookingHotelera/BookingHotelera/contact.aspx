@@ -91,15 +91,15 @@
 						<div class="contact_title text-center">get in touch</div>
 						<form action="#" id="contact_form" class="contact_form text-center">
 
-                            <asp:TextBox ID="txtCorreo" runat="server"  class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required." ></asp:TextBox>
-                            <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
-                            <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
-                            <asp:TextBox ID="txtMensaje" runat="server"></asp:TextBox>
-                            <asp:TextBox ID="txtAsunto" runat="server"></asp:TextBox>
-
-                            <asp:Button ID="btnGuardar" runat="server"  class="form_submit_button button trans_200" Text="send message" />
+							<asp:TextBox ID="txtNombre"  class="contact_form_name input_field"  placeholder="Name2"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtApellido"  class="contact_form_name input_field"  placeholder="Apellido"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtCorreo"  class="contact_form_name input_field"  placeholder="E-mail"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtAsunto"  class="contact_form_name input_field" placeholder="Subject"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtMensaje"  class="contact_form_name input_field"  placeholder="Message"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
 
 							
+                            <asp:Button ID="btnGuardar"   runat="server"  class="form_submit_button button trans_200" Text="send message" />
+
 						</form>
 					</div>
 
