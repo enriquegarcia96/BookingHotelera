@@ -6,9 +6,9 @@ Public Class Login
 
 
     Protected Sub btniniciarsesion_Click(sender As Object, e As EventArgs) Handles btnIniciarSesion.Click
+        Dim sesion As String
 
-
-        Dim conexion As New SqlConnection("Data Source=localhost; Initial Catalog=BookingHotelera; integrated Security=True")
+        Dim conexion As New SqlConnection("Data Source=ENRIQUECODE\ENRIQUECODE; Initial Catalog=BookingHotelera; integrated Security=True")
         Dim ConsultaQuery As New SqlCommand("SELECT 1 FROM Usuario WHERE ContraseñaUsuario = @Contra AND  CorreoUsuario = @Correo AND NivelUsuariao = @TipoUsuario", conexion)
 
 
@@ -24,7 +24,8 @@ Public Class Login
         DR = ConsultaQuery.ExecuteReader()
 
         If (DR.Read()) Then
-            Response.Redirect("Clientes.aspx")
+            Session("Usuario") = txtCorreo.Text
+            Response.Redirect("~/Clientes.aspx")
         Else
             Response.Write("Usuario invalido")
         End If

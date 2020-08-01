@@ -11,140 +11,122 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Hoteles
+Partial Public Class FormularioDeHoteles
 
     '''<summary>
-    '''Control Label6.
+    '''Control txtCorreoUsuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtCorreoUsuario As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control Label1.
+    '''Control txtNombreHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtNombreHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control txt_IdHabitacion.
+    '''Control FileFotoHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_IdHabitacion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents FileFotoHotel As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''Control Label2.
+    '''Control txtDescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtDescripcion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddl_TipoHabitacion.
+    '''Control txtUbicacionHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddl_TipoHabitacion As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtUbicacionHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control SqlDataSource1.
+    '''Control DropServicio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents DropServicio As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control Label3.
+    '''Control txtEstrellasHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtEstrellasHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control txt_Descripcion.
+    '''Control DropCiudad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_Descripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropCiudad As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control Label4.
+    '''Control txtCheckInInicioHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtCheckInInicioHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control txt_Precio.
+    '''Control TextCheckInFinalHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_Precio As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextCheckInFinalHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control chb_Promocion.
+    '''Control TextCheckOutInicioHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chb_Promocion As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents TextCheckOutInicioHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control chb_Ocupada.
+    '''Control txtCheckOutFinalHotel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chb_Ocupada As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents txtCheckOutFinalHotel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control Label5.
+    '''Control btnGuardar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control txt_Promocion.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txt_Promocion As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control btn_Guardar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btn_Guardar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
 End Class
