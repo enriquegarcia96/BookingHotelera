@@ -38,10 +38,13 @@ Public Class FormularioDeHoteles
 
         consultaQuery.ExecuteNonQuery()
 
+
+
+
         Try
             Session("Usuario") = txtCorreoUsuario.Text
             Response.Write("<script>alert('Los Datos Del Hotel Fueron Guardados Correctamente');</script>")
-            Response.Redirect("~/Clientes.aspx") ' cambiar al
+            Response.Redirect("~/Clientes.aspx") ' cambiar a la nueva pagina maestra
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
