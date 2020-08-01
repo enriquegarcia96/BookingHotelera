@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Contact</title>
 <meta charset="utf-8">
@@ -90,11 +90,19 @@
 					<div class="contact_form_container">
 						<div class="contact_title text-center">get in touch</div>
 						<form action="#" id="contact_form" class="contact_form text-center">
-							<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
-							<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
+
+							<asp:TextBox ID="txtNombre"  class="contact_form_name input_field"  placeholder="Name2"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtApellido"  class="contact_form_name input_field"  placeholder="Apellido"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtCorreo"  class="contact_form_name input_field"  placeholder="E-mail"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtAsunto"  class="contact_form_name input_field" placeholder="Subject"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+							<asp:TextBox ID="txtMensaje"  class="contact_form_name input_field"  placeholder="Message"  required="required" data-error="Name is required." runat="server"></asp:TextBox>
+
+							<!--<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name2" required="required" data-error="Name is required."> -->
+							<!--<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
 							<input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
-							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
-							<button type="submit" id="form_submit_button" class="form_submit_button button trans_200">send message<span></span><span></span><span></span></button>
+							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>-->
+                            <asp:Button ID="btnGuardar"   runat="server"  class="form_submit_button button trans_200" Text="send message" />
+							<!--<button type="submit" id="form_submit_button" class="form_submit_button button trans_200">send message<span></span><span></span><span></span></button>-->
 						</form>
 					</div>
 
